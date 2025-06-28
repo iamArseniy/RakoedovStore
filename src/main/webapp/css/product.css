@@ -1,0 +1,78 @@
+body {
+
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background: url('../images/foncrabs.webp') repeat;
+    background-color: #ffffff;
+    color: #0b0b0d;
+    background-size: 50% 50%;
+
+}
+
+.container {
+    width: 800px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.product-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #dc3545;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212529;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    background-color: #dc3545;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-back:hover {
+    background-color: #c82333;
+    color: #ffffff;
+}

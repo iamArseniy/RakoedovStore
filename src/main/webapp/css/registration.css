@@ -1,0 +1,71 @@
+body {
+    background: url('../images/A_seamless_pattern_on_a_white_background_featuring.png') repeat;
+    background-color: #ffffff;
+    color: #0b0b0d;
+    background-size: 100% 250%;
+
+}
+
+.container {
+    position: relative;
+    top: 80px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+h1 {
+    color: #0b0b0d;
+    font-family: 'Arial', sans-serif;
+}
+
+.form-label {
+    color: #0b0b0d;
+}
+
+.form-control {
+    border-color: #bcbcbe;
+}
+
+.form-control:focus {
+    border-color: #e72f25;
+    box-shadow: 0 0 5px rgba(231, 47, 37, 0.5);
+}
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.btn-primary {
+    background-color: #e72f25;
+    border-color: #e72f25;
+    align-content: center;
+}
+
+.btn-primary:hover {
+    background-color: #b71d13;
+    border-color: #b71d13;
+}
+
+.text-danger {
+    color: #e72f25;
+}
+
+.already-registered {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #e72f25;
+    font-family: 'Arial', sans-serif;
+}
+
+.already-registered a.link-login {
+
+    color: #e72f25;
+}
+
+.already-registered a.link-login:hover {
+    color: #b71d13;
+    text-decoration: underline;
+}
+
